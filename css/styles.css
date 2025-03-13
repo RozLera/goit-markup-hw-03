@@ -21,10 +21,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    Weight: Regular;
-    Size: 16px;
-    Line-Height: 24px;
-    Letter-Spacing: 2%;
     color: #434455;
     background-color: #ffffff;
 
@@ -116,7 +112,6 @@ button {
     gap: 40px;
 }
 
-.nav-item {}
 
 .nav-link {
     padding: 24px;
