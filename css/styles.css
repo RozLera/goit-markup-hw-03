@@ -70,6 +70,11 @@ button {
     margin-right: auto;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -235,15 +240,27 @@ button {
     color: #434455;
 }
 
-.section-three {
+.section-team {
     background-color: #F4F4FD
 }
 
-.section-three .box {
-    background-color: #ffffff;
+.team-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
-.section-three .title-main {
+
+.team-item {
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+
+.title-main {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
@@ -253,7 +270,7 @@ button {
     color: #2e2f42;
 }
 
-.section-three .title {
+.title-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -262,7 +279,7 @@ button {
     color: #2e2f42;
 }
 
-.section-three .text {
+.text-name {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
