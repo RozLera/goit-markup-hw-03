@@ -86,6 +86,10 @@ button {
     overflow: hidden;
 }
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -106,6 +110,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .logo-header .logo-part {
@@ -341,8 +346,8 @@ button {
 }
 
 .footer-logo {
-    display: inline;
-    margin-bottom: 17px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .studio-footer {
