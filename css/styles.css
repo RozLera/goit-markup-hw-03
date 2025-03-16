@@ -79,7 +79,6 @@ button {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -219,8 +218,7 @@ button {
 }
 
 .benefits-item {
-    width: 264px;
-    display: block;
+    width: calc((100% - 48px) / 3) display: block;
 
 }
 
@@ -260,8 +258,7 @@ button {
     text-align: center;
     background-color: var(--white);
     border-radius: 0 0 4px 4px;
-    width: 264px;
-    height: 380px;
+    width: calc((100% - 48px) / 3) height: 380px;
 }
 
 .title-main {
